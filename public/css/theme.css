@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Merriweather&display=swap');
+
+/* Light background class with updated box shadow */
+.bg-light {
+    background-color: #cfe8fc !important; 
+    -webkit-box-shadow: 0px 1px 9px 0px rgba(150, 150, 150, 0.75);
+    -moz-box-shadow: 0px 1px 9px 0px rgba(150, 150, 150, 0.75);
+    box-shadow: 0px 1px 9px 0px rgba(150, 150, 150, 0.75);
+}
+
+/* Navbar brand styling */
+.navbar-light .navbar-brand {
+    font-family: 'Merriweather', serif;
+    text-shadow: 1px 1px 2px #333;
+    font-size: 26px;
+    color: #0056b3;
+}
+
+/* Nav link styling */
+a.nav-link {
+    font-family: 'Roboto', sans-serif;
+    color: #0056b3;
+}
+
+/* Body and HTML background */
+body, html {
+    background: #f5f5f5; /* fallback color */
+    background: linear-gradient(to bottom, #b3d1ff, #80aaff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+/* Primary button styling */
+.btn-primary {
+    background-color: #4a90e2;
+    border-color: #0056b3;
+}
+
+.btn-primary:hover {
+    background-color: #357ab8;
+    border-color: #003f7f;
+}
+
+/* Table row background color */
+table.table tr:nth-child(odd) td {
+    background-color: #e0e6ed;
+}
+
+/* Header styling */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    text-shadow: 1px 1px 2px #333;
+    color: #0056b3;
+}
+
+/* Link styling */
+a {
+    color: #0056b3;
+}
+
+a:hover {
+    color: #003f7f;
+}
+
+/* Form legend styling */
+legend {
+    text-shadow: 1px 1px 2px #333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Merriweather', serif;
+    color: #0056b3;
+}
